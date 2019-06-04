@@ -319,6 +319,10 @@ form a:hover{
     padding-bottom: 30px;
   }
 
+  .home-footer{
+    display: none;
+  }
+
   nav{
     float:none;
     text-align: center;

@@ -48,10 +48,12 @@ a{
 /*Media Queries*/
 @media(max-width: 768px){
   .sidebar{
-    float:none;
+    float:right;
+    width:200px;
   }
 
   .car-info{
     height:auto;
   }
 }
+
