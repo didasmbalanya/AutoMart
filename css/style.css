@@ -36,6 +36,7 @@ button{
   text-transform: uppercase;
   cursor: pointer;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 button:hover{
@@ -79,6 +80,7 @@ header li {
 a:hover{
   color:orange;
   font-weight: bold;
+  transition: 0.4s;
 }
   
 header a{
@@ -104,10 +106,10 @@ main {
 }
   
 main img{
-  width:200px;
+  width:220px;
   margin-right:10px;
-  border-radius: 50%;
-  border: 3px black solid;
+  border-radius: 10%;
+  border: 3px white solid;
 }
 
 footer{
@@ -159,7 +161,7 @@ hr{
 .form{
   width: 500px;
   height:400px;
-  background-color:darkorange;
+  background-color:gray;
   border-radius:4px;
   text-align: center;
   padding:20px;
@@ -202,6 +204,7 @@ hr{
   margin: 15px auto;
   font-size: 14px;
   padding: 10px;
+  border: 2px solid orange;
 }
 
 .white{
