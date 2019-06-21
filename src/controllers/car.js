@@ -55,7 +55,7 @@ export const getCarById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundCar = await getCarId(id);
-    if (!foundCar || foundCar.status === 'sold') return res.status(404).send({ status: 200, error: 'Not Found' });
+    if (!foundCar || foundCar.status === 'sold') return res.status(404).send({ status: 404, error: 'Not Found' });
     return res.status(200).send({ status: 200, data: foundCar });
   } catch (e) {
     res.status(400).send({ status: 400, error: 'Bad Request' });
